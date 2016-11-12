@@ -91,6 +91,12 @@ NavMeshSettings:
     cellSize: 0.16666667
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &168083186 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114230185683127916, guid: ffb6f8e9b08714b45a376e41607ac715,
+    type: 2}
+  m_PrefabInternal: {fileID: 1934161915}
+  m_Script: {fileID: 11500000, guid: ff0882b3c7a8e2649b3368d1413e4eae, type: 3}
 --- !u!1001 &316582268
 Prefab:
   m_ObjectHideFlags: 0
@@ -175,6 +181,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60f84ff0ad1a3c444be6765665647e1c, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &692579414 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114541358410872030, guid: ffb6f8e9b08714b45a376e41607ac715,
+    type: 2}
+  m_PrefabInternal: {fileID: 1934161915}
+  m_Script: {fileID: 11500000, guid: ff0882b3c7a8e2649b3368d1413e4eae, type: 3}
 --- !u!1001 &751068391
 Prefab:
   m_ObjectHideFlags: 0
@@ -306,6 +318,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2560356c9baf0ad47b8778020c1f15bf, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1454032300 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114786960690057360, guid: ffb6f8e9b08714b45a376e41607ac715,
+    type: 2}
+  m_PrefabInternal: {fileID: 1934161915}
+  m_Script: {fileID: 11500000, guid: ff0882b3c7a8e2649b3368d1413e4eae, type: 3}
 --- !u!1001 &1502318382
 Prefab:
   m_ObjectHideFlags: 0
@@ -464,6 +482,25 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114859667537131100, guid: ffb6f8e9b08714b45a376e41607ac715,
+        type: 2}
+      propertyPath: animationManager
+      value: 
+      objectReference: {fileID: 692579414}
+    - target: {fileID: 114202412364547942, guid: ffb6f8e9b08714b45a376e41607ac715,
+        type: 2}
+      propertyPath: animationManager
+      value: 
+      objectReference: {fileID: 168083186}
+    - target: {fileID: 1636250402207188, guid: ffb6f8e9b08714b45a376e41607ac715, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114156524949556504, guid: ffb6f8e9b08714b45a376e41607ac715,
+        type: 2}
+      propertyPath: animationManager
+      value: 
+      objectReference: {fileID: 1454032300}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ffb6f8e9b08714b45a376e41607ac715, type: 2}
   m_IsPrefabParent: 0
