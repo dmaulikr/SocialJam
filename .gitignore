@@ -4,6 +4,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/ThirdParty/
+/Assets/Mega Music Pack/
 /Assets/AssetStoreTools*
 
 # We're not using Git LFS; update Resources.unitypackage over Google Drive
