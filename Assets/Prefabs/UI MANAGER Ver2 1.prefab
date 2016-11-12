@@ -336,6 +336,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1076075391584344
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224472123776470722}
+  - component: {fileID: 222053563484209006}
+  - component: {fileID: 114836933566033218}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1077384987936132
 GameObject:
   m_ObjectHideFlags: 1
@@ -534,6 +551,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1129222321643388
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224889574874595198}
+  - component: {fileID: 223215917238011840}
+  m_Layer: 5
+  m_Name: Foreground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1130689180905160
 GameObject:
   m_ObjectHideFlags: 1
@@ -714,6 +747,25 @@ GameObject:
   - component: {fileID: 114812208226525360}
   m_Layer: 0
   m_Name: Sell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1197405211450126
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224806771353929450}
+  - component: {fileID: 222362241641270452}
+  - component: {fileID: 114209331361178124}
+  - component: {fileID: 114096753030191672}
+  - component: {fileID: 114597252017603792}
+  m_Layer: 0
+  m_Name: CropAmt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1117,6 +1169,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1309002481528868
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224308859134848660}
+  - component: {fileID: 223698636978688072}
+  - component: {fileID: 114696928661108890}
+  - component: {fileID: 114449630227096828}
+  - component: {fileID: 114990004362036234}
+  m_Layer: 5
+  m_Name: GameUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1311060811231062
 GameObject:
   m_ObjectHideFlags: 1
@@ -1220,6 +1291,26 @@ GameObject:
   - component: {fileID: 114755009604583398}
   m_Layer: 0
   m_Name: Purchase2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1349477697914172
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224847993858050586}
+  - component: {fileID: 222658667347583922}
+  - component: {fileID: 114804357227564156}
+  - component: {fileID: 114151003644804514}
+  - component: {fileID: 114028956231017678}
+  - component: {fileID: 114386079803352708}
+  m_Layer: 0
+  m_Name: Field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1413,6 +1504,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1450262887685844
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224699380391989954}
+  - component: {fileID: 222305331497448946}
+  - component: {fileID: 114658045452813674}
+  - component: {fileID: 114881281349867312}
+  - component: {fileID: 114721105282902510}
+  m_Layer: 0
+  m_Name: GrainsAmt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1455748562901720
 GameObject:
   m_ObjectHideFlags: 1
@@ -1563,6 +1673,23 @@ GameObject:
   - component: {fileID: 114540040775509942}
   m_Layer: 0
   m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1500287026187624
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224839178040940432}
+  - component: {fileID: 222224541607688646}
+  - component: {fileID: 114311236775935440}
+  m_Layer: 0
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1800,7 +1927,7 @@ GameObject:
   - component: {fileID: 114142499737710086}
   - component: {fileID: 114363682019667318}
   m_Layer: 5
-  m_Name: GameUI
+  m_Name: InventoryUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2167,6 +2294,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1646439123549614
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224776896635915634}
+  - component: {fileID: 222383074275228126}
+  - component: {fileID: 114292028101968890}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1648636817811432
 GameObject:
   m_ObjectHideFlags: 1
@@ -2266,12 +2410,11 @@ GameObject:
   m_Component:
   - component: {fileID: 224678681648257888}
   - component: {fileID: 222240877436191872}
-  - component: {fileID: 114804357227564156}
   - component: {fileID: 114369600100054896}
   - component: {fileID: 114631344921990400}
   - component: {fileID: 114294342735248116}
   m_Layer: 0
-  m_Name: Field
+  m_Name: MeatAmt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2831,6 +2974,23 @@ GameObject:
   - component: {fileID: 114677608228097644}
   m_Layer: 0
   m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1863819656719370
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224558953057616508}
+  - component: {fileID: 222307126151002798}
+  - component: {fileID: 223727915753541068}
+  m_Layer: 5
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3502,6 +3662,58 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114028956231017678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349477697914172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.58823526, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114804357227564156}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: FieldCam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114030967740902930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5360,6 +5572,58 @@ MonoBehaviour:
   - MainMenu
   gameEvents: []
   animationManager: {fileID: 114615383799660438}
+--- !u!114 &114096753030191672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197405211450126}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.58823526, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: FieldCam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114097814096521956
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6363,6 +6627,17 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114151003644804514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349477697914172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0882b3c7a8e2649b3368d1413e4eae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114151970936561184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6984,6 +7259,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114209331361178124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197405211450126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0882b3c7a8e2649b3368d1413e4eae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114209890157516836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9817,6 +10103,39 @@ MonoBehaviour:
   hideElements: []
   gameEvents: []
   animationManager: {fileID: 114602689978179044}
+--- !u!114 &114292028101968890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646439123549614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ad358b1e822000b44b37a2809fac13b5, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: FIELD
 --- !u!114 &114294342735248116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10060,11 +10379,8 @@ MonoBehaviour:
         soundName: ~No Sound~
       soundAtStart: 
       soundAtFinish: 
-  showElements:
-  - Field UI
-  hideElements:
-  - KitchenUI
-  - Cookbook
+  showElements: []
+  hideElements: []
   gameEvents: []
   animationManager: {fileID: 114369600100054896}
 --- !u!114 &114298089054576828
@@ -10525,6 +10841,42 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'QUIT
+
+'
+--- !u!114 &114311236775935440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1500287026187624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ad358b1e822000b44b37a2809fac13b5, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'X CROP
+
 
 '
 --- !u!114 &114312966323229264
@@ -11916,7 +12268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abb5c4702c7d6e344b9832a97ae1264d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  elementName: Game UI
+  elementName: InventoryUI
   moveInSoundAtStart: ~No Sound~
   moveInSoundAtFinish: ~No Sound~
   rotationInSoundAtStart: ~No Sound~
@@ -11948,7 +12300,7 @@ MonoBehaviour:
   useCustomStartAnchoredPosition: 0
   customStartAnchoredPosition: {x: 0, y: 0, z: 0}
   elementNameReference:
-    elementName: Game UI
+    elementName: InventoryUI
   startHidden: 1
   animateAtStart: 0
   disableWhenHidden: 0
@@ -12571,6 +12923,256 @@ MonoBehaviour:
   m_Text: 'PRICE
 
 '
+--- !u!114 &114386079803352708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349477697914172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682849f091f20484485c3a8e6c1e0b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: Field
+  onClickSound: ~No Sound~
+  showHelp: 0
+  allowMultipleClicks: 1
+  disableButtonInterval: 0.5
+  useOnClickAnimations: 1
+  useNormalStateAnimations: 1
+  useHighlightedStateAnimations: 1
+  buttonNameReference:
+    buttonName: Field
+  addToNavigationHistory: 0
+  backButton: 0
+  waitForOnClickAnimation: 1
+  onClickSoundReference:
+    onClickSound: ~No Sound~
+  onClickAnimationsPresetNames:
+  - ClickHorizontalScale
+  - ClickReturnIn
+  - ClickReturnOut
+  - ClickVerticalScale
+  - DefaultPreset
+  - ElasticRotateLeft
+  - ElasticRotateRight
+  - JumpRotateLeft
+  - JumpRotateRight
+  - MiniJump
+  - OrganicHorizontalStretch
+  - OrganicJump
+  - OrganicLongSlideLeft
+  - OrganicLongSlideRight
+  - OrganicMiniJump
+  - OrganicSlideLeft
+  - OrganicSlideRight
+  - OrganicVerticalStretch
+  - QuickScaleIn
+  - QuickScaleOut
+  - ScaleJumpDown
+  - ScaleJumpLeft
+  - ScaleJumpRight
+  - ScaleJumpUp
+  - ScaleOutRotateLeft
+  - ScaleOutRotateRight
+  - SlideRotateLeft
+  - SlideRotateRight
+  - TwitchToLeft
+  - TwitchToRight
+  activeOnclickAnimationsPresetIndex: 9
+  onClickAnimationsPresetName: MiniJump
+  onClickAnimationSettings:
+    onClickAnimationsPresetName: MiniJump
+    punchPositionEnabled: 1
+    punchPositionPunch: {x: 0, y: 20}
+    punchPositionSnapping: 0
+    punchPositionDuration: 0.2
+    punchPositionVibrato: 4
+    punchPositionElasticity: 0.5
+    punchPositionDelay: 0
+    punchRotationEnabled: 0
+    punchRotationPunch: {x: 0, y: 0, z: -30}
+    punchRotationDuration: 0.2
+    punchRotationVibrato: 4
+    punchRotationElasticity: 0.5
+    punchRotationDelay: 0
+    punchScaleEnabled: 0
+    punchScalePunch: {x: 0.2, y: 0.2, z: 0}
+    punchScaleDuration: 0.2
+    punchScaleVibrato: 4
+    punchScaleElasticity: 0.5
+    punchScaleDelay: 0
+  buttonLoopsAnimationsPresetNames:
+  - DefaultPreset
+  - FadeOutHard
+  - FadeOutSoft
+  - HorizontalMoveScaleIn
+  - HorizontalSlide
+  - Levitate
+  - OrganicHorizontalSlide
+  - OrganicRotateSlow10
+  - OrganicRotateSlow5
+  - OrganicScaleIn
+  - OrganicScaleOut
+  - OrganicVerticalSlide
+  - RotateFast10
+  - RotateFast5
+  - RotateLock5
+  - RotateQuick10
+  - RotateQuick5
+  - RotateScaleIn
+  - RotateScaleOut
+  - RotateSlow10
+  - RotateSlow5
+  - ScaleInHard
+  - ScaleInSoft
+  - ScaleOutHard
+  - ScaleOutPulseHard
+  - ScaleOutPulseSoft
+  - ScaleOutSoft
+  - VerticalMoveScaleIn
+  - WiggleHorizontal
+  - WiggleVertical
+  activeNormalAnimationsPresetIndex: 5
+  normalAnimationsPresetName: Levitate
+  normalAnimationSettings:
+    animationsPresetName: Levitate
+    moveLoop:
+      enabled: 1
+      autoStart: 0
+      movement: {x: 0, y: 10, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 1
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    rotationLoop:
+      enabled: 0
+      autoStart: 0
+      rotation: {x: 0, y: 0, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    scaleLoop:
+      enabled: 0
+      autoStart: 0
+      min: {x: 1, y: 1, z: 1}
+      max: {x: 1.05, y: 1.05, z: 1.05}
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    fadeLoop:
+      enabled: 0
+      autoStart: 0
+      min: 0
+      max: 1
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+  activeHighlightedAnimationsPresetIndex: 5
+  highlightedAnimationsPresetName: Levitate
+  highlightedAnimationSettings:
+    animationsPresetName: Levitate
+    moveLoop:
+      enabled: 1
+      autoStart: 0
+      movement: {x: 0, y: 10, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 1
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    rotationLoop:
+      enabled: 0
+      autoStart: 0
+      rotation: {x: 0, y: 0, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    scaleLoop:
+      enabled: 0
+      autoStart: 0
+      min: {x: 1, y: 1, z: 1}
+      max: {x: 1.05, y: 1.05, z: 1.05}
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    fadeLoop:
+      enabled: 0
+      autoStart: 0
+      min: 0
+      max: 1
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+  showElements:
+  - Field UI
+  hideElements:
+  - KitchenUI
+  - Cookbook
+  gameEvents: []
+  animationManager: {fileID: 114151003644804514}
 --- !u!114 &114386495185106874
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13432,6 +14034,17 @@ MonoBehaviour:
   m_Text: 'EXIT
 
 '
+--- !u!114 &114449630227096828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1309002481528868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0882b3c7a8e2649b3368d1413e4eae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114449675202634188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15590,6 +16203,253 @@ MonoBehaviour:
     m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   animationManager: {fileID: 114752972425368728}
+--- !u!114 &114597252017603792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197405211450126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682849f091f20484485c3a8e6c1e0b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: Field
+  onClickSound: ~No Sound~
+  showHelp: 0
+  allowMultipleClicks: 1
+  disableButtonInterval: 0.5
+  useOnClickAnimations: 1
+  useNormalStateAnimations: 1
+  useHighlightedStateAnimations: 1
+  buttonNameReference:
+    buttonName: Field
+  addToNavigationHistory: 0
+  backButton: 0
+  waitForOnClickAnimation: 1
+  onClickSoundReference:
+    onClickSound: ~No Sound~
+  onClickAnimationsPresetNames:
+  - ClickHorizontalScale
+  - ClickReturnIn
+  - ClickReturnOut
+  - ClickVerticalScale
+  - DefaultPreset
+  - ElasticRotateLeft
+  - ElasticRotateRight
+  - JumpRotateLeft
+  - JumpRotateRight
+  - MiniJump
+  - OrganicHorizontalStretch
+  - OrganicJump
+  - OrganicLongSlideLeft
+  - OrganicLongSlideRight
+  - OrganicMiniJump
+  - OrganicSlideLeft
+  - OrganicSlideRight
+  - OrganicVerticalStretch
+  - QuickScaleIn
+  - QuickScaleOut
+  - ScaleJumpDown
+  - ScaleJumpLeft
+  - ScaleJumpRight
+  - ScaleJumpUp
+  - ScaleOutRotateLeft
+  - ScaleOutRotateRight
+  - SlideRotateLeft
+  - SlideRotateRight
+  - TwitchToLeft
+  - TwitchToRight
+  activeOnclickAnimationsPresetIndex: 9
+  onClickAnimationsPresetName: MiniJump
+  onClickAnimationSettings:
+    onClickAnimationsPresetName: MiniJump
+    punchPositionEnabled: 1
+    punchPositionPunch: {x: 0, y: 20}
+    punchPositionSnapping: 0
+    punchPositionDuration: 0.2
+    punchPositionVibrato: 4
+    punchPositionElasticity: 0.5
+    punchPositionDelay: 0
+    punchRotationEnabled: 0
+    punchRotationPunch: {x: 0, y: 0, z: -30}
+    punchRotationDuration: 0.2
+    punchRotationVibrato: 4
+    punchRotationElasticity: 0.5
+    punchRotationDelay: 0
+    punchScaleEnabled: 0
+    punchScalePunch: {x: 0.2, y: 0.2, z: 0}
+    punchScaleDuration: 0.2
+    punchScaleVibrato: 4
+    punchScaleElasticity: 0.5
+    punchScaleDelay: 0
+  buttonLoopsAnimationsPresetNames:
+  - DefaultPreset
+  - FadeOutHard
+  - FadeOutSoft
+  - HorizontalMoveScaleIn
+  - HorizontalSlide
+  - Levitate
+  - OrganicHorizontalSlide
+  - OrganicRotateSlow10
+  - OrganicRotateSlow5
+  - OrganicScaleIn
+  - OrganicScaleOut
+  - OrganicVerticalSlide
+  - RotateFast10
+  - RotateFast5
+  - RotateLock5
+  - RotateQuick10
+  - RotateQuick5
+  - RotateScaleIn
+  - RotateScaleOut
+  - RotateSlow10
+  - RotateSlow5
+  - ScaleInHard
+  - ScaleInSoft
+  - ScaleOutHard
+  - ScaleOutPulseHard
+  - ScaleOutPulseSoft
+  - ScaleOutSoft
+  - VerticalMoveScaleIn
+  - WiggleHorizontal
+  - WiggleVertical
+  activeNormalAnimationsPresetIndex: 5
+  normalAnimationsPresetName: Levitate
+  normalAnimationSettings:
+    animationsPresetName: Levitate
+    moveLoop:
+      enabled: 1
+      autoStart: 0
+      movement: {x: 0, y: 10, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 1
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    rotationLoop:
+      enabled: 0
+      autoStart: 0
+      rotation: {x: 0, y: 0, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    scaleLoop:
+      enabled: 0
+      autoStart: 0
+      min: {x: 1, y: 1, z: 1}
+      max: {x: 1.05, y: 1.05, z: 1.05}
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    fadeLoop:
+      enabled: 0
+      autoStart: 0
+      min: 0
+      max: 1
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+  activeHighlightedAnimationsPresetIndex: 5
+  highlightedAnimationsPresetName: Levitate
+  highlightedAnimationSettings:
+    animationsPresetName: Levitate
+    moveLoop:
+      enabled: 1
+      autoStart: 0
+      movement: {x: 0, y: 10, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 1
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    rotationLoop:
+      enabled: 0
+      autoStart: 0
+      rotation: {x: 0, y: 0, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    scaleLoop:
+      enabled: 0
+      autoStart: 0
+      min: {x: 1, y: 1, z: 1}
+      max: {x: 1.05, y: 1.05, z: 1.05}
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    fadeLoop:
+      enabled: 0
+      autoStart: 0
+      min: 0
+      max: 1
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+  showElements: []
+  hideElements: []
+  gameEvents: []
+  animationManager: {fileID: 114209331361178124}
 --- !u!114 &114602689978179044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15796,7 +16656,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1673059406464398}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -15825,7 +16685,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 114804357227564156}
+  m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -16651,6 +17511,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114658045452813674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450262887685844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0882b3c7a8e2649b3368d1413e4eae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114658363985836288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17197,6 +18068,7 @@ MonoBehaviour:
       soundAtFinish: 
   showElements:
   - Game UI
+  - InventoryUI
   hideElements:
   - MainMenu
   gameEvents: []
@@ -17705,6 +18577,22 @@ MonoBehaviour:
   - MainMenu
   gameEvents: []
   animationManager: {fileID: 114970928008928730}
+--- !u!114 &114696928661108890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1309002481528868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &114698705126757214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18342,6 +19230,253 @@ MonoBehaviour:
   hideElements: []
   gameEvents: []
   animationManager: {fileID: 114405275269142568}
+--- !u!114 &114721105282902510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450262887685844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682849f091f20484485c3a8e6c1e0b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: Field
+  onClickSound: ~No Sound~
+  showHelp: 0
+  allowMultipleClicks: 1
+  disableButtonInterval: 0.5
+  useOnClickAnimations: 1
+  useNormalStateAnimations: 1
+  useHighlightedStateAnimations: 1
+  buttonNameReference:
+    buttonName: Field
+  addToNavigationHistory: 0
+  backButton: 0
+  waitForOnClickAnimation: 1
+  onClickSoundReference:
+    onClickSound: ~No Sound~
+  onClickAnimationsPresetNames:
+  - ClickHorizontalScale
+  - ClickReturnIn
+  - ClickReturnOut
+  - ClickVerticalScale
+  - DefaultPreset
+  - ElasticRotateLeft
+  - ElasticRotateRight
+  - JumpRotateLeft
+  - JumpRotateRight
+  - MiniJump
+  - OrganicHorizontalStretch
+  - OrganicJump
+  - OrganicLongSlideLeft
+  - OrganicLongSlideRight
+  - OrganicMiniJump
+  - OrganicSlideLeft
+  - OrganicSlideRight
+  - OrganicVerticalStretch
+  - QuickScaleIn
+  - QuickScaleOut
+  - ScaleJumpDown
+  - ScaleJumpLeft
+  - ScaleJumpRight
+  - ScaleJumpUp
+  - ScaleOutRotateLeft
+  - ScaleOutRotateRight
+  - SlideRotateLeft
+  - SlideRotateRight
+  - TwitchToLeft
+  - TwitchToRight
+  activeOnclickAnimationsPresetIndex: 9
+  onClickAnimationsPresetName: MiniJump
+  onClickAnimationSettings:
+    onClickAnimationsPresetName: MiniJump
+    punchPositionEnabled: 1
+    punchPositionPunch: {x: 0, y: 20}
+    punchPositionSnapping: 0
+    punchPositionDuration: 0.2
+    punchPositionVibrato: 4
+    punchPositionElasticity: 0.5
+    punchPositionDelay: 0
+    punchRotationEnabled: 0
+    punchRotationPunch: {x: 0, y: 0, z: -30}
+    punchRotationDuration: 0.2
+    punchRotationVibrato: 4
+    punchRotationElasticity: 0.5
+    punchRotationDelay: 0
+    punchScaleEnabled: 0
+    punchScalePunch: {x: 0.2, y: 0.2, z: 0}
+    punchScaleDuration: 0.2
+    punchScaleVibrato: 4
+    punchScaleElasticity: 0.5
+    punchScaleDelay: 0
+  buttonLoopsAnimationsPresetNames:
+  - DefaultPreset
+  - FadeOutHard
+  - FadeOutSoft
+  - HorizontalMoveScaleIn
+  - HorizontalSlide
+  - Levitate
+  - OrganicHorizontalSlide
+  - OrganicRotateSlow10
+  - OrganicRotateSlow5
+  - OrganicScaleIn
+  - OrganicScaleOut
+  - OrganicVerticalSlide
+  - RotateFast10
+  - RotateFast5
+  - RotateLock5
+  - RotateQuick10
+  - RotateQuick5
+  - RotateScaleIn
+  - RotateScaleOut
+  - RotateSlow10
+  - RotateSlow5
+  - ScaleInHard
+  - ScaleInSoft
+  - ScaleOutHard
+  - ScaleOutPulseHard
+  - ScaleOutPulseSoft
+  - ScaleOutSoft
+  - VerticalMoveScaleIn
+  - WiggleHorizontal
+  - WiggleVertical
+  activeNormalAnimationsPresetIndex: 5
+  normalAnimationsPresetName: Levitate
+  normalAnimationSettings:
+    animationsPresetName: Levitate
+    moveLoop:
+      enabled: 1
+      autoStart: 0
+      movement: {x: 0, y: 10, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 1
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    rotationLoop:
+      enabled: 0
+      autoStart: 0
+      rotation: {x: 0, y: 0, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    scaleLoop:
+      enabled: 0
+      autoStart: 0
+      min: {x: 1, y: 1, z: 1}
+      max: {x: 1.05, y: 1.05, z: 1.05}
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    fadeLoop:
+      enabled: 0
+      autoStart: 0
+      min: 0
+      max: 1
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+  activeHighlightedAnimationsPresetIndex: 5
+  highlightedAnimationsPresetName: Levitate
+  highlightedAnimationSettings:
+    animationsPresetName: Levitate
+    moveLoop:
+      enabled: 1
+      autoStart: 0
+      movement: {x: 0, y: 10, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 1
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    rotationLoop:
+      enabled: 0
+      autoStart: 0
+      rotation: {x: 0, y: 0, z: 0}
+      easeType: 4
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    scaleLoop:
+      enabled: 0
+      autoStart: 0
+      min: {x: 1, y: 1, z: 1}
+      max: {x: 1.05, y: 1.05, z: 1.05}
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+    fadeLoop:
+      enabled: 0
+      autoStart: 0
+      min: 0
+      max: 1
+      easeType: 1
+      loops: -1
+      loopType: 1
+      time: 0.5
+      delay: 0
+      soundAtStartReference:
+        soundName: ~No Sound~
+      soundAtFinishReference:
+        soundName: ~No Sound~
+      soundAtStart: 
+      soundAtFinish: 
+  showElements: []
+  hideElements: []
+  gameEvents: []
+  animationManager: {fileID: 114658045452813674}
 --- !u!114 &114721765120656110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20733,7 +21868,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1673059406464398}
+  m_GameObject: {fileID: 1349477697914172}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -22184,6 +23319,39 @@ MonoBehaviour:
   hideElements: []
   gameEvents: []
   animationManager: {fileID: 114316500982911202}
+--- !u!114 &114836933566033218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076075391584344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ad358b1e822000b44b37a2809fac13b5, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: X GRAINS
 --- !u!114 &114837625721147084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22916,6 +24084,58 @@ MonoBehaviour:
   m_Text: 'X / X CROP
 
 '
+--- !u!114 &114881281349867312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450262887685844}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.58823526, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: FieldCam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114885869686132836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24894,7 +26114,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: FIELD
+  m_Text: 'X MEAT
+
+'
 --- !u!114 &114966456601942322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26150,6 +27372,301 @@ MonoBehaviour:
   - MainMenuPlay
   gameEvents: []
   animationManager: {fileID: 114852737595999246}
+--- !u!114 &114990004362036234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1309002481528868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb5c4702c7d6e344b9832a97ae1264d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementName: Game UI
+  moveInSoundAtStart: ~No Sound~
+  moveInSoundAtFinish: ~No Sound~
+  rotationInSoundAtStart: ~No Sound~
+  rotationInSoundAtFinish: ~No Sound~
+  scaleInSoundAtStart: ~No Sound~
+  scaleInSoundAtFinish: ~No Sound~
+  fadeInSoundAtStart: ~No Sound~
+  fadeInSoundAtFinish: ~No Sound~
+  moveLoopSoundAtStart: ~No Sound~
+  moveLoopSoundAtFinish: ~No Sound~
+  rotationLoopSoundAtStart: ~No Sound~
+  rotationLoopSoundAtFinish: ~No Sound~
+  scaleLoopSoundAtStart: ~No Sound~
+  scaleLoopSoundAtFinish: ~No Sound~
+  fadeLoopSoundAtStart: ~No Sound~
+  fadeLoopSoundAtFinish: ~No Sound~
+  moveOutSoundAtStart: ~No Sound~
+  moveOutSoundAtFinish: ~No Sound~
+  rotationOutSoundAtStart: ~No Sound~
+  rotationOutSoundAtFinish: ~No Sound~
+  scaleOutSoundAtStart: ~No Sound~
+  scaleOutSoundAtFinish: ~No Sound~
+  fadeOutSoundAtStart: ~No Sound~
+  fadeOutSoundAtFinish: ~No Sound~
+  showHelp: 0
+  LANDSCAPE: 1
+  PORTRAIT: 1
+  linkedToNotification: 0
+  useCustomStartAnchoredPosition: 0
+  customStartAnchoredPosition: {x: 0, y: 0, z: 0}
+  elementNameReference:
+    elementName: Game UI
+  startHidden: 1
+  animateAtStart: 0
+  disableWhenHidden: 0
+  selectedButton: {fileID: 0}
+  autoRegister: 1
+  isVisible: 1
+  useInAnimations: 1
+  useLoopAnimations: 0
+  useOutAnimations: 1
+  useInAnimationsStartEvents: 0
+  useInAnimationsFinishEvents: 0
+  useOutAnimationsStartEvents: 0
+  useOutAnimationsFinishEvents: 0
+  activeInAnimationsPresetIndex: 7
+  inAnimationsPresetNames:
+  - CascadeIn
+  - DefaultPreset
+  - DoubleIn
+  - DropDownBounce
+  - DropDownFade
+  - JiggleIn
+  - JumpIn
+  - KnockIn
+  - PunchIn
+  - PunchRotateIn
+  - RiseIn
+  - RotateScaleIn
+  - SailIn
+  - ScaleFadeIn
+  - SlenderIn
+  - SlideCardFromLeft
+  - SlideRotateInFromLeft
+  - SproutIn
+  - ThrustIn
+  - WiggleRotateScaleIn
+  inAnimationsPresetName: KnockIn
+  moveIn:
+    enabled: 1
+    moveFrom: 2
+    positionAdjustment: {x: 0, y: 0, z: 0}
+    positionFrom: {x: 0, y: 0, z: 0}
+    easeType: 18
+    time: 0.4
+    delay: 0.4
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  rotationIn:
+    enabled: 0
+    rotateFrom: {x: 0, y: 0, z: 0}
+    easeType: 27
+    time: 0.5
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  scaleIn:
+    enabled: 1
+    scaleBegin: {x: 1.1, y: 1.1, z: 1}
+    easeType: 30
+    time: 0.4
+    delay: 0.6
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  fadeIn:
+    enabled: 0
+    easeType: 1
+    time: 0.2
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  activeLoopAnimationsPresetIndex: 0
+  loopAnimationsPresetNames:
+  - DefaultPreset
+  - FastRotateLeft
+  - FastRotateRight
+  - FastScaleLoop
+  - Levitate
+  - SlowRotateLeft
+  - SlowRotateRight
+  - SlowScaleLoop
+  loopAnimationsPresetName: DefaultPreset
+  moveLoop:
+    enabled: 0
+    autoStart: 0
+    movement: {x: 0, y: 0, z: 0}
+    easeType: 4
+    loops: -1
+    loopType: 1
+    time: 0.5
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  rotationLoop:
+    enabled: 0
+    autoStart: 0
+    rotation: {x: 0, y: 0, z: 0}
+    easeType: 4
+    loops: -1
+    loopType: 1
+    time: 0.5
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  scaleLoop:
+    enabled: 0
+    autoStart: 0
+    min: {x: 1, y: 1, z: 1}
+    max: {x: 1.05, y: 1.05, z: 1.05}
+    easeType: 1
+    loops: -1
+    loopType: 1
+    time: 0.5
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  fadeLoop:
+    enabled: 0
+    autoStart: 0
+    min: 0
+    max: 1
+    easeType: 1
+    loops: -1
+    loopType: 1
+    time: 0.5
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  activeOutAnimationsPresetIndex: 4
+  outAnimationsPresetNames:
+  - CascadeOut
+  - DefaultPreset
+  - DoubleOut
+  - DropDownBounce
+  - DropDownFade
+  - JiggleOut
+  - JumpOut
+  - KnockOut
+  - PunchOut
+  - PunchRotateOut
+  - RiseOut
+  - RotateScaleOut
+  - SailOut
+  - ScaleFadeOut
+  - SlenderOut
+  - SlideCardToRight
+  - SlideRotateOutToRight
+  - SproutOut
+  - ThrustOut
+  - WiggleRotateScaleOut
+  outAnimationsPresetName: DropDownFade
+  moveOut:
+    enabled: 1
+    moveTo: 2
+    positionAdjustment: {x: 0, y: 0, z: 0}
+    positionTo: {x: 0, y: 0, z: 0}
+    easeType: 27
+    time: 0.4
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  rotationOut:
+    enabled: 0
+    rotateTo: {x: 0, y: 0, z: 60}
+    easeType: 17
+    time: 0.5
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  scaleOut:
+    enabled: 0
+    scaleEnd: {x: 0, y: 0, z: 0}
+    easeType: 26
+    time: 0.5
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  fadeOut:
+    enabled: 1
+    easeType: 1
+    time: 0.4
+    delay: 0
+    soundAtStartReference:
+      soundName: ~No Sound~
+    soundAtFinishReference:
+      soundName: ~No Sound~
+    soundAtStart: 
+    soundAtFinish: 
+  onInAnimationsStart:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onInAnimationsFinish:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onOutAnimationsStart:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onOutAnimationsFinish:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  animationManager: {fileID: 114449630227096828}
 --- !u!124 &124133773515235940
 Behaviour:
   m_ObjectHideFlags: 1
@@ -26193,6 +27710,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1934992883534506}
+--- !u!222 &222053563484209006
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076075391584344}
 --- !u!222 &222067613727240366
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -26343,6 +27866,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1111025172495746}
+--- !u!222 &222224541607688646
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1500287026187624}
 --- !u!222 &222225983378918726
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -26463,12 +27992,24 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1786338850923342}
+--- !u!222 &222305331497448946
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450262887685844}
 --- !u!222 &222307000717505646
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1817320716280642}
+--- !u!222 &222307126151002798
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1863819656719370}
 --- !u!222 &222313645613409316
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -26493,6 +28034,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1502518545991176}
+--- !u!222 &222362241641270452
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197405211450126}
 --- !u!222 &222362875805166134
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -26529,6 +28076,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1902811322476926}
+--- !u!222 &222383074275228126
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646439123549614}
 --- !u!222 &222387204435354868
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -26829,6 +28382,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1447517873063982}
+--- !u!222 &222658667347583922
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349477697914172}
 --- !u!222 &222670971759650542
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -27277,6 +28836,25 @@ Canvas:
   m_SortingLayerID: -1423712685
   m_SortingOrder: 30
   m_TargetDisplay: 0
+--- !u!223 &223215917238011840
+Canvas:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1129222321643388}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_SortingLayerID: -1423712685
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
 --- !u!223 &223271356085516788
 Canvas:
   m_ObjectHideFlags: 1
@@ -27505,6 +29083,25 @@ Canvas:
   m_SortingLayerID: -1423712685
   m_SortingOrder: 5
   m_TargetDisplay: 0
+--- !u!223 &223698636978688072
+Canvas:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1309002481528868}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_SortingLayerID: -1423712685
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
 --- !u!223 &223715453569805652
 Canvas:
   m_ObjectHideFlags: 1
@@ -27523,6 +29120,25 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: -1423712685
   m_SortingOrder: 10
+  m_TargetDisplay: 0
+--- !u!223 &223727915753541068
+Canvas:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1863819656719370}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_SortingLayerID: -1423712685
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!223 &223741087052521196
 Canvas:
@@ -28326,7 +29942,7 @@ RectTransform:
   m_LocalScale: {x: 0.999915, y: 0.999915, z: 0.999915}
   m_Children:
   - {fileID: 224401686097888702}
-  m_Father: {fileID: 224785772996754486}
+  m_Father: {fileID: 224308859134848660}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -28723,6 +30339,29 @@ RectTransform:
   m_AnchoredPosition: {x: 251, y: -0.0000047684}
   m_SizeDelta: {x: 337.78, y: 94}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224308859134848660
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1309002481528868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224492828167300090}
+  - {fileID: 224847993858050586}
+  - {fileID: 224558953057616508}
+  - {fileID: 224889574874595198}
+  - {fileID: 224166226654292014}
+  m_Father: {fileID: 224941684798958578}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224317482486255834
 RectTransform:
   m_ObjectHideFlags: 1
@@ -29075,7 +30714,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224785772996754486}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -29196,6 +30835,24 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224472123776470722
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076075391584344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224699380391989954}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 421.57, y: 94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224472318341533444
 RectTransform:
@@ -29335,7 +30992,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224200071263377740}
-  m_Father: {fileID: 224785772996754486}
+  m_Father: {fileID: 224308859134848660}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -29546,6 +31203,24 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 155, y: -5}
   m_SizeDelta: {x: 337.78, y: 94}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224558953057616508
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1863819656719370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224308859134848660}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224583940050580498
 RectTransform:
@@ -29934,16 +31609,16 @@ RectTransform:
   m_GameObject: {fileID: 1673059406464398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 224859111348241106}
   m_Father: {fileID: 224785772996754486}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -185, y: -459}
-  m_SizeDelta: {x: 412.7, y: 100}
+  m_AnchoredPosition: {x: -591, y: 472}
+  m_SizeDelta: {x: 308, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224679716190070974
 RectTransform:
@@ -29995,7 +31670,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224785772996754486}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -30037,6 +31712,25 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 421.57, y: 94}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224699380391989954
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450262887685844}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 224472123776470722}
+  m_Father: {fileID: 224785772996754486}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 10, y: 472}
+  m_SizeDelta: {x: 308, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224700944951985784
 RectTransform:
@@ -30286,6 +31980,24 @@ RectTransform:
   m_AnchoredPosition: {x: 198, y: 448}
   m_SizeDelta: {x: 412.7, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224776896635915634
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646439123549614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224847993858050586}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 421.57, y: 94}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224777059295659554
 RectTransform:
   m_ObjectHideFlags: 1
@@ -30331,15 +32043,15 @@ RectTransform:
   m_GameObject: {fileID: 1573064670374072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_Children:
-  - {fileID: 224492828167300090}
-  - {fileID: 224678681648257888}
   - {fileID: 224691000497057660}
   - {fileID: 224449018737503432}
-  - {fileID: 224166226654292014}
+  - {fileID: 224678681648257888}
+  - {fileID: 224806771353929450}
+  - {fileID: 224699380391989954}
   m_Father: {fileID: 224941684798958578}
-  m_RootOrder: 1
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -30401,6 +32113,25 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224806771353929450
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197405211450126}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 224839178040940432}
+  m_Father: {fileID: 224785772996754486}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -298, y: 472}
+  m_SizeDelta: {x: 308, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224814525344334528
 RectTransform:
@@ -30476,6 +32207,24 @@ RectTransform:
   m_AnchoredPosition: {x: 653, y: 43.000088}
   m_SizeDelta: {x: 276, y: 86}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224839178040940432
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1500287026187624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224806771353929450}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 421.57, y: 94}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224841328656015772
 RectTransform:
   m_ObjectHideFlags: 1
@@ -30549,6 +32298,25 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1, y: -33}
   m_SizeDelta: {x: 529, y: 94}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224847993858050586
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349477697914172}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224776896635915634}
+  m_Father: {fileID: 224308859134848660}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -185, y: -459}
+  m_SizeDelta: {x: 412.7, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224852667920439534
 RectTransform:
@@ -30693,6 +32461,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -5}
   m_SizeDelta: {x: 421.57, y: 94}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224889574874595198
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1129222321643388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224308859134848660}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224890974253795692
 RectTransform:
   m_ObjectHideFlags: 1
@@ -30797,7 +32583,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 224277198965345822}
-  - {fileID: 224785772996754486}
+  - {fileID: 224308859134848660}
   - {fileID: 224646000539752592}
   - {fileID: 224764820271274968}
   - {fileID: 224636098661394060}
@@ -30807,6 +32593,7 @@ RectTransform:
   - {fileID: 224041265413209804}
   - {fileID: 224857445266337608}
   - {fileID: 224624334933240420}
+  - {fileID: 224785772996754486}
   m_Father: {fileID: 4202636606564562}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
