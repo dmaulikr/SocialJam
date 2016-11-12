@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour {
 
     // movement variables
-    public float movementSpeed = 5f;
+    public float movementSpeed = 1f;
     Rigidbody2D myRigidBody;
     Vector3 targetPosition;
     Vector3 movingVector;
@@ -16,12 +16,18 @@ public class PlayerMovement : MonoBehaviour {
     public float borderWidthPixelsY;
     public RectTransform BorderTopLefttUiPosition;
     public RectTransform BorderBottomRightUiPosition;
+    SpriteRenderer mySpriteRender;
+    Animator myAnimator;
+    float distanceToDestination;
+    public float distanceAnimationThreshold = 1f;
 
 
     // Use this for iniialization
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
+        mySpriteRender = GetComponent<SpriteRenderer>();
+        myAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -32,6 +38,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPosition.z = transform.position.z;
+            UpdateSpriteDirection();
         }
 
         // Touch Input
@@ -39,6 +46,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             targetPosition = targetPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
             targetPosition.z = transform.position.z;
+            UpdateSpriteDirection();
         }
 
 
@@ -46,10 +54,16 @@ public class PlayerMovement : MonoBehaviour {
         {
             movingVector = (targetPosition - transform.position) * movementSpeed;
             myRigidBody.velocity = movingVector;
+            myAnimator.SetBool("Walking", true);
         }
         else
         {
             myRigidBody.velocity = Vector3.zero;
+        }
+        distanceToDestination = Vector3.Distance(targetPosition, transform.position);
+        if (distanceToDestination < distanceAnimationThreshold)
+        {
+            myAnimator.SetBool("Walking", false);
         }
     }
 
@@ -77,5 +91,17 @@ public class PlayerMovement : MonoBehaviour {
             }
         }
         return false;
+    }
+
+    void UpdateSpriteDirection()
+    {
+        if (targetPosition.x > transform.position.x)
+        {
+            mySpriteRender.flipX = false;
+        }
+        else if (targetPosition.x < transform.position.x)
+        {
+            mySpriteRender.flipX = true;
+        }
     }
 }
