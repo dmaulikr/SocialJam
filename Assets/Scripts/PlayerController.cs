@@ -127,7 +127,10 @@ public class PlayerController : MonoBehaviour {
 //            Debug.Log("User cancelled login");
 //        }
 //    }
-    // Use this for initialization
+
+	// ========================================
+	// Game loop
+	// ========================================
 
     void Start()
     {
@@ -164,7 +167,11 @@ public class PlayerController : MonoBehaviour {
     }
 
 	// ========================================
-	// Game loop
+	// Internal functions
 	// ========================================
+
+	//private GridSquareState GetCurrentTile() {
+		
+	//}
 
 }
