@@ -3,7 +3,7 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
-/ThirdParty/
+/Assets/ThirdParty/
 /Assets/AssetStoreTools*
 
 # We're not using Git LFS; update Resources.unitypackage over Google Drive
