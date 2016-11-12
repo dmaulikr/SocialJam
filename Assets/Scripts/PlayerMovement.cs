@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour {
 
     // movement variables
-    public float movementSpeed = 5f;
+    public float movementSpeed = 1f;
     Rigidbody2D myRigidBody;
     Vector3 targetPosition;
     Vector3 movingVector;
@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour {
     public RectTransform BorderBottomRightUiPosition;
     SpriteRenderer mySpriteRender;
     Animator myAnimator;
+    float distanceToDestination;
+    public float distanceAnimationThreshold = 1f;
 
 
     // Use this for iniialization
@@ -52,12 +54,16 @@ public class PlayerMovement : MonoBehaviour {
         {
             movingVector = (targetPosition - transform.position) * movementSpeed;
             myRigidBody.velocity = movingVector;
-            //myAnimator.SetBool("Walking", true);
+            myAnimator.SetBool("Walking", true);
         }
         else
         {
             myRigidBody.velocity = Vector3.zero;
-           // myAnimator.SetBool("Walking", false);
+        }
+        distanceToDestination = Vector3.Distance(targetPosition, transform.position);
+        if (distanceToDestination < distanceAnimationThreshold)
+        {
+            myAnimator.SetBool("Walking", false);
         }
     }
 
