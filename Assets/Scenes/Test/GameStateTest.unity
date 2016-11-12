@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 1196581941}
   - component: {fileID: 1196581945}
   - component: {fileID: 1196581944}
+  - component: {fileID: 1196581946}
   m_Layer: 0
   m_Name: New Sprite
   m_TagString: Untagged
@@ -333,3 +334,14 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1196581946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196581940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2d2ee3f7b2ce504c9960cb90cc2d2ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
