@@ -20,10 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4032733494117218}
   - component: {fileID: 212886243140200298}
-  - component: {fileID: 114186806116076256}
   - component: {fileID: 58348374615030888}
   - component: {fileID: 50211723112011922}
-  - component: {fileID: 114830057059312086}
+  - component: {fileID: 114028485004156930}
+  - component: {fileID: 114528513293277964}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -78,7 +78,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
---- !u!114 &114186806116076256
+--- !u!114 &114028485004156930
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -89,8 +89,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5250d1267091d843be002d53f925862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
---- !u!114 &114830057059312086
+  randomizerObject: {fileID: 0}
+  trapCost: 200
+  resourceAmount: 3
+--- !u!114 &114528513293277964
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -101,10 +103,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c48abbc2fb70d4eb372e1ee4e0232d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meat: 0
-  plants: 0
-  liquids: 0
   prestige: 0
+  money: 1000
+  crop: 0
+  meat: 0
+  produce: 0
 --- !u!212 &212886243140200298
 SpriteRenderer:
   m_ObjectHideFlags: 1
