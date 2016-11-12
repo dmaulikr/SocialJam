@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour {
 
@@ -10,12 +9,12 @@ public class PlayerMovement : MonoBehaviour {
     Rigidbody2D myRigidBody;
     Vector3 targetPosition;
     Vector3 movingVector;
-    public enum BorderMode { absolutePixels, uiPosition};
+    public enum BorderMode { absolutePixels, worldPosition};
     public BorderMode borderMode = BorderMode.absolutePixels;
     public float borderWidthPixelsX;
     public float borderWidthPixelsY;
-    public RectTransform BorderTopLefttUiPosition;
-    public RectTransform BorderBottomRightUiPosition;
+    public Transform BorderTopLeftPosition;
+    public Transform BorderBottomRightPosition;
     SpriteRenderer mySpriteRender;
     Animator myAnimator;
     float distanceToDestination;
@@ -82,9 +81,11 @@ public class PlayerMovement : MonoBehaviour {
         }
         else
         {
-            if (screenCoordinate.x > BorderTopLefttUiPosition.position.x && screenCoordinate.x > BorderTopLefttUiPosition.position.y)
+            if (Camera.main.ScreenToWorldPoint(screenCoordinate).x > BorderTopLeftPosition.position.x &&
+                Camera.main.ScreenToWorldPoint(screenCoordinate).y < BorderTopLeftPosition.position.y)
             {
-                if (screenCoordinate.x < BorderBottomRightUiPosition.position.x && screenCoordinate.y < BorderBottomRightUiPosition.position.y)
+                if (Camera.main.ScreenToWorldPoint(screenCoordinate).x < BorderBottomRightPosition.position.x &&
+                    Camera.main.ScreenToWorldPoint(screenCoordinate).y > BorderBottomRightPosition.position.y)
                 {
                     return true;
                 }
