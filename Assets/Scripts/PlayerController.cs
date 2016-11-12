@@ -6,11 +6,12 @@ using Facebook.Unity;
 
 public class PlayerController : MonoBehaviour {
 
-    // movement variables
    	public float movementSpeed = 5f;
     Rigidbody2D myRigidBody;
     Vector3 targetPosition;
     Vector3 movingVector;
+
+	GridSquareState[] gridSquares;
 
     // Use this for iniialization
   
@@ -135,6 +136,7 @@ public class PlayerController : MonoBehaviour {
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
+		gridSquares = GameObject.FindObjectsOfType<GridSquareState>();
     }
 
     // Update is called once per frame
@@ -167,11 +169,21 @@ public class PlayerController : MonoBehaviour {
     }
 
 	// ========================================
+	// Public manipulators
+	// ========================================
+
+	public GridSquareState GetCurrentSquare() {		
+		foreach(GridSquareState state in gridSquares) {
+			if (state.ContainsObject(gameObject)) {
+				return state;
+			}
+		}
+		return null;
+	}
+
+	// ========================================
 	// Internal functions
 	// ========================================
 
-	//private GridSquareState GetCurrentTile() {
-		
-	//}
 
 }
