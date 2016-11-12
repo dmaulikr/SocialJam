@@ -2326,7 +2326,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  animationManager: {fileID: 114823119078042098}
+  animationManager: {fileID: 0}
 --- !u!114 &114054770454429102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2575,7 +2575,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114174946145604850}
+  animationManager: {fileID: 0}
 --- !u!114 &114058853331491176
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2856,7 +2856,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114926212196125424}
+  animationManager: {fileID: 0}
 --- !u!114 &114071890610404730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3439,7 +3439,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114072815169450538}
+  animationManager: {fileID: 0}
 --- !u!114 &114156524949556504
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3687,7 +3687,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114786960690057360}
+  animationManager: {fileID: 0}
 --- !u!114 &114163569971534710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4043,7 +4043,7 @@ MonoBehaviour:
   - Game UI
   - KitchenUI
   gameEvents: []
-  animationManager: {fileID: 114885342163023702}
+  animationManager: {fileID: 0}
 --- !u!114 &114174946145604850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4498,7 +4498,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  animationManager: {fileID: 114230185683127916}
+  animationManager: {fileID: 0}
 --- !u!114 &114214886831628034
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4795,7 +4795,7 @@ MonoBehaviour:
   - Cookbook
   - Market
   gameEvents: []
-  animationManager: {fileID: 114141889646617464}
+  animationManager: {fileID: 0}
 --- !u!114 &114230185683127916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5253,7 +5253,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114697382961322550}
+  animationManager: {fileID: 0}
 --- !u!114 &114276141226098224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5548,7 +5548,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  animationManager: {fileID: 114758141038298610}
+  animationManager: {fileID: 0}
 --- !u!114 &114279906381499568
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5796,7 +5796,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114019974258979726}
+  animationManager: {fileID: 0}
 --- !u!114 &114280128893472012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6202,7 +6202,7 @@ MonoBehaviour:
   - Game UI
   - KitchenUI
   gameEvents: []
-  animationManager: {fileID: 114301563524756170}
+  animationManager: {fileID: 0}
 --- !u!114 &114326580872480682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6535,7 +6535,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  animationManager: {fileID: 114759409221524698}
+  animationManager: {fileID: 0}
 --- !u!114 &114363728834871810
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7024,7 +7024,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114626012608729292}
+  animationManager: {fileID: 0}
 --- !u!114 &114418920325718904
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7331,7 +7331,7 @@ MonoBehaviour:
   showElements: []
   hideElements: []
   gameEvents: []
-  animationManager: {fileID: 114256662151254134}
+  animationManager: {fileID: 0}
 --- !u!114 &114427916130710356
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7694,7 +7694,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114900197282855378}
+  animationManager: {fileID: 0}
 --- !u!114 &114464528928945376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8221,7 +8221,7 @@ MonoBehaviour:
   hideElements:
   - Field UI
   gameEvents: []
-  animationManager: {fileID: 114392725180156892}
+  animationManager: {fileID: 0}
 --- !u!114 &114513109477998552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8600,7 +8600,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114028759976793292}
+  animationManager: {fileID: 0}
 --- !u!114 &114560085654393764
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8788,7 +8788,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: CookRecipe
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9046,7 +9046,7 @@ MonoBehaviour:
   showElements: []
   hideElements: []
   gameEvents: []
-  animationManager: {fileID: 114074524016991028}
+  animationManager: {fileID: 0}
 --- !u!114 &114626012608729292
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9306,7 +9306,7 @@ MonoBehaviour:
   - MainMenu
   - MainMenuPlay
   gameEvents: []
-  animationManager: {fileID: 114053000169155392}
+  animationManager: {fileID: 0}
 --- !u!114 &114638622663378348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9553,7 +9553,7 @@ MonoBehaviour:
   showElements: []
   hideElements: []
   gameEvents: []
-  animationManager: {fileID: 114519277091394604}
+  animationManager: {fileID: 0}
 --- !u!114 &114641490556529394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9924,7 +9924,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  animationManager: {fileID: 114741365619998102}
+  animationManager: {fileID: 0}
 --- !u!114 &114648606483296560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9998,7 +9998,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114584156775435968}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: performAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114678050790859616
@@ -10430,7 +10441,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114755394902642742}
+  animationManager: {fileID: 0}
 --- !u!114 &114704284500030236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10787,7 +10798,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114541172180245452}
+  animationManager: {fileID: 0}
 --- !u!114 &114737499141195702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11217,7 +11228,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114930674359503196}
+  animationManager: {fileID: 0}
 --- !u!114 &114758141038298610
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11524,7 +11535,7 @@ MonoBehaviour:
   - KitchenUI
   - Cookbook
   gameEvents: []
-  animationManager: {fileID: 114032397645221344}
+  animationManager: {fileID: 0}
 --- !u!114 &114784564433923488
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11819,7 +11830,7 @@ MonoBehaviour:
   - Game UI
   - Cookbook
   gameEvents: []
-  animationManager: {fileID: 114326995803892988}
+  animationManager: {fileID: 0}
 --- !u!114 &114792102925081118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12114,7 +12125,7 @@ MonoBehaviour:
   hideElements:
   - Cookbook
   gameEvents: []
-  animationManager: {fileID: 114962505068680764}
+  animationManager: {fileID: 0}
 --- !u!114 &114813864021184902
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12362,7 +12373,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114707342712481680}
+  animationManager: {fileID: 0}
 --- !u!114 &114817499966422268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12565,7 +12576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abb5c4702c7d6e344b9832a97ae1264d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  elementName: Market
+  elementName: ~Element Name~
   moveInSoundAtStart: ~No Sound~
   moveInSoundAtFinish: ~No Sound~
   rotationInSoundAtStart: ~No Sound~
@@ -13095,7 +13106,7 @@ MonoBehaviour:
   showElements: []
   hideElements: []
   gameEvents: []
-  animationManager: {fileID: 114214886831628034}
+  animationManager: {fileID: 0}
 --- !u!114 &114883033211493736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13443,7 +13454,7 @@ MonoBehaviour:
   hideElements:
   - MainMenu
   gameEvents: []
-  animationManager: {fileID: 114005575631093312}
+  animationManager: {fileID: 0}
 --- !u!114 &114907773183124472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13846,7 +13857,7 @@ MonoBehaviour:
   - MainMenu
   - MainMenuPlay
   gameEvents: []
-  animationManager: {fileID: 114287013387155578}
+  animationManager: {fileID: 0}
 --- !u!114 &114981095383212754
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14182,7 +14193,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: DoozyUI.UIElement+TriggerEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  animationManager: {fileID: 114535799459030930}
+  animationManager: {fileID: 0}
 --- !u!114 &114993519054733250
 MonoBehaviour:
   m_ObjectHideFlags: 1

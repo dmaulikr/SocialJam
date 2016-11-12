@@ -82,9 +82,11 @@ public class PlayerMovement : MonoBehaviour {
         }
         else
         {
-            if (screenCoordinate.x > BorderTopLefttUiPosition.position.x && screenCoordinate.x > BorderTopLefttUiPosition.position.y)
+			if (Camera.main.ScreenToWorldPoint(screenCoordinate).x > BorderTopLefttUiPosition.position.x && 
+				Camera.main.ScreenToWorldPoint(screenCoordinate).y > BorderTopLefttUiPosition.position.y);
             {
-                if (screenCoordinate.x < BorderBottomRightUiPosition.position.x && screenCoordinate.y < BorderBottomRightUiPosition.position.y)
+				if (Camera.main.ScreenToWorldPoint(screenCoordinate).x < BorderBottomRightUiPosition.position.x && 
+					Camera.main.ScreenToWorldPoint(screenCoordinate).y < BorderBottomRightUiPosition.position.y)
                 {
                     return true;
                 }

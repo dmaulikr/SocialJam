@@ -12,10 +12,12 @@ public class GridRandomizer : MonoBehaviour {
 	//[SerializeField]
 	private GridSquareState.TileState permittedResource;
 
-	private GridSquareState[] gridSquares;
+	public GridSquareState[] gridSquares;
 
 	[SerializeField]
 	private int resourcesSpawned;
+
+	private bool setEmpty;
 
 	// ========================================
 	// Game loop
@@ -28,10 +30,14 @@ public class GridRandomizer : MonoBehaviour {
 		} else {
 			permittedResource = GridSquareState.TileState.PRODUCE;
 		}
+		setEmpty = true;
 	}
 
 	void Update () {
-			
+		if (setEmpty) {
+			RandomizeGrid();
+			setEmpty = false;
+		}
 	}
 
 	// ========================================
@@ -58,6 +64,12 @@ public class GridRandomizer : MonoBehaviour {
 		for (int i = 0; i < gridTraps.Length; ++i) {
 			GridSquareState randomSquare = GetRandomSquare(gridTraps);
 			randomSquare.SetTileState(GridSquareState.TileState.MEAT);
+		}
+	}
+
+	public void ResetGrid() {
+		foreach (GridSquareState square in gridSquares) {
+			square.SetTileState(GridSquareState.TileState.EMPTY);
 		}
 	}
 

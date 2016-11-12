@@ -43,7 +43,7 @@ public class GridSquareState : MonoBehaviour {
 		PRODUCE = 4
 	};
 
-	private TileState currentState;
+	public TileState currentState;
 
 	// ========================================
 	// Game loop
