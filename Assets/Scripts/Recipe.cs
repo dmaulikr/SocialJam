@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Recipe : MonoBehaviour {
     public int meat;
-    public int plants;
-    public int liquids;
+    public int grains;
+    public int vegatables;
     public int prestigeValue;
     PlayerState playerState;
     public bool playerHasIngredients = false;
+	public string name;
 
 	// Use this for initialization
 	void Start () {
@@ -20,9 +21,9 @@ public class Recipe : MonoBehaviour {
 
 	}
 
-    void CheckIfPlayerHasIngredients()
+    public void CheckIfPlayerHasIngredients()
     {
-        if (playerState.meat >= meat && playerState.plants >= plants && playerState.liquids >= liquids)
+        if (playerState.meat >= meat && playerState.grains >= grains && playerState.vegatables >= vegatables)
         {
             playerHasIngredients = true;
         }
@@ -38,8 +39,8 @@ public class Recipe : MonoBehaviour {
         if (playerHasIngredients)
         {
             playerState.meat -= meat;
-            playerState.plants -= plants;
-            playerState.liquids -= liquids;
+            playerState.vegatables -= vegatables;
+            playerState.grains -= grains;
             playerState.prestige += prestigeValue;
         }
     }

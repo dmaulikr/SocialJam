@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerState : MonoBehaviour {
 
     public int meat;
-    public int plants;
-    public int liquids;
+    public int vegatables;
+    public int grains;
     public int prestige;
 
 	// Use this for initialization

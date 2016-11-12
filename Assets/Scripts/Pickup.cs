@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Pickup : MonoBehaviour {
-    public enum ResourceType { Meat, Plant, Liquid };
+    public enum ResourceType { Meat, Vegatables, Grains };
     public ResourceType resourceType = ResourceType.Meat;
     PlayerState playerState;
 
@@ -29,13 +29,13 @@ public class Pickup : MonoBehaviour {
         {
             playerState.meat++;
         }
-        else if (resourceType == ResourceType.Plant)
+        else if (resourceType == ResourceType.Vegatables)
         {
-            playerState.plants++;
+            playerState.vegatables++;
         }
-        else if (resourceType == ResourceType.Liquid)
+        else if (resourceType == ResourceType.Vegatables)
         {
-            playerState.liquids++;
+			playerState.grains++;
         }
     }
 }
