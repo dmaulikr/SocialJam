@@ -5,16 +5,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     // movement variables
-   public float moementSpeed = 5f;
+   public float movementSpeed = 5f;
     Rigidbody2D myRigidBody;
     Vector3 targetPosition;
     Vector3 movingVector;
-v
+
 
     // Use this for iniialization
-        myRigidBody = GetCom
-    void Start()t
-    {ponent<Rigidbody2D>();
+
+    void Start()
+    {
+        myRigidBody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame

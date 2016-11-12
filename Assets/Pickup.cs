@@ -5,10 +5,11 @@ using UnityEngine;
 public class Pickup : MonoBehaviour {
     public enum ResourceType { Meat, Plant, Liquid };
     public ResourceType resourceType = ResourceType.Meat;
+    PlayerState playerState;
 
 	// Use this for initialization
 	void Start () {
-		
+        playerState = FindObjectOfType<PlayerState>();
 	}
 	
 	// Update is called once per frame
@@ -26,15 +27,15 @@ public class Pickup : MonoBehaviour {
     {
         if (resourceType == ResourceType.Meat)
         {
-            // Increment meat
+            playerState.meat++;
         }
         else if (resourceType == ResourceType.Plant)
         {
-            // Increment plants
+            playerState.plants++;
         }
         else if (resourceType == ResourceType.Liquid)
         {
-            // Increment liquid
+            playerState.liquids++;
         }
     }
 }
