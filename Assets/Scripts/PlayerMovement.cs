@@ -1,27 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour {
 
     // movement variables
-    public float movementSpeed = 5f;
+    public float movementSpeed = 1f;
     Rigidbody2D myRigidBody;
     Vector3 targetPosition;
     Vector3 movingVector;
-    public enum BorderMode { absolutePixels, uiPosition};
+    public enum BorderMode { absolutePixels, worldPosition};
     public BorderMode borderMode = BorderMode.absolutePixels;
     public float borderWidthPixelsX;
     public float borderWidthPixelsY;
-    public RectTransform BorderTopLefttUiPosition;
-    public RectTransform BorderBottomRightUiPosition;
+    public Transform BorderTopLeftPosition;
+    public Transform BorderBottomRightPosition;
+    SpriteRenderer mySpriteRender;
+    Animator myAnimator;
+    float distanceToDestination;
+    public float distanceAnimationThreshold = 1f;
 
 
     // Use this for iniialization
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
+        mySpriteRender = GetComponent<SpriteRenderer>();
+        myAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -32,6 +37,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPosition.z = transform.position.z;
+            UpdateSpriteDirection();
         }
 
         // Touch Input
@@ -39,6 +45,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             targetPosition = targetPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
             targetPosition.z = transform.position.z;
+            UpdateSpriteDirection();
         }
 
 
@@ -46,10 +53,16 @@ public class PlayerMovement : MonoBehaviour {
         {
             movingVector = (targetPosition - transform.position) * movementSpeed;
             myRigidBody.velocity = movingVector;
+            myAnimator.SetBool("Walking", true);
         }
         else
         {
             myRigidBody.velocity = Vector3.zero;
+        }
+        distanceToDestination = Vector3.Distance(targetPosition, transform.position);
+        if (distanceToDestination < distanceAnimationThreshold)
+        {
+            myAnimator.SetBool("Walking", false);
         }
     }
 
@@ -68,14 +81,28 @@ public class PlayerMovement : MonoBehaviour {
         }
         else
         {
-            if (screenCoordinate.x > BorderTopLefttUiPosition.position.x && screenCoordinate.x > BorderTopLefttUiPosition.position.y)
+            if (Camera.main.ScreenToWorldPoint(screenCoordinate).x > BorderTopLeftPosition.position.x &&
+                Camera.main.ScreenToWorldPoint(screenCoordinate).y < BorderTopLeftPosition.position.y)
             {
-                if (screenCoordinate.x < BorderBottomRightUiPosition.position.x && screenCoordinate.y < BorderBottomRightUiPosition.position.y)
+                if (Camera.main.ScreenToWorldPoint(screenCoordinate).x < BorderBottomRightPosition.position.x &&
+                    Camera.main.ScreenToWorldPoint(screenCoordinate).y > BorderBottomRightPosition.position.y)
                 {
                     return true;
                 }
             }
         }
         return false;
+    }
+
+    void UpdateSpriteDirection()
+    {
+        if (targetPosition.x > transform.position.x)
+        {
+            mySpriteRender.flipX = false;
+        }
+        else if (targetPosition.x < transform.position.x)
+        {
+            mySpriteRender.flipX = true;
+        }
     }
 }
