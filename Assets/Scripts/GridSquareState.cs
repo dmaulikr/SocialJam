@@ -28,10 +28,10 @@ public class GridSquareState : MonoBehaviour {
 	private Sprite cropTileSprite;
 
 	// ========================================
-	// Local state variables
+	// State variables
 	// ========================================
 
-	private enum TileState { 
+	public enum TileState { 
 		EMPTY = 0, 
 		TRAP = 1,
 		DEAD = 2,
@@ -90,6 +90,14 @@ public class GridSquareState : MonoBehaviour {
 		} else {
 			return false;
 		}
+	}
+
+	public TileState GetTileState() {
+		return currentState;
+	}
+
+	public void SetTileState(TileState state) {
+		currentState = state;
 	}
 
 	// ========================================
