@@ -119,46 +119,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &212625136 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1499657065911002, guid: 45d7762dda3989c40a0c88ad1acce9d4,
-    type: 2}
-  m_PrefabInternal: {fileID: 316582268}
---- !u!95 &212625137
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 212625136}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dad976691a4177348b7a65ca1ed91948, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &212625143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 212625136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04519759df9b12e4892d23ccdd0cab5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 1
-  borderMode: 1
-  borderWidthPixelsX: 0
-  borderWidthPixelsY: 0
-  BorderTopLeftPosition: {fileID: 1118310593}
-  BorderBottomRightPosition: {fileID: 133874709}
-  distanceAnimationThreshold: 0.25
 --- !u!1001 &316582268
 Prefab:
   m_ObjectHideFlags: 0
@@ -198,25 +158,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 212886243140200298, guid: 45d7762dda3989c40a0c88ad1acce9d4,
+    - target: {fileID: 114965842511370110, guid: 45d7762dda3989c40a0c88ad1acce9d4,
         type: 2}
-      propertyPath: m_Sprite
+      propertyPath: BorderTopLeftPosition
       value: 
-      objectReference: {fileID: 21300000, guid: ed3fca07b9898e2419dc43c009e26f0c,
-        type: 3}
-    - target: {fileID: 114186806116076256, guid: 45d7762dda3989c40a0c88ad1acce9d4,
+      objectReference: {fileID: 1118310593}
+    - target: {fileID: 114965842511370110, guid: 45d7762dda3989c40a0c88ad1acce9d4,
         type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4032733494117218, guid: 45d7762dda3989c40a0c88ad1acce9d4, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4032733494117218, guid: 45d7762dda3989c40a0c88ad1acce9d4, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
+      propertyPath: BorderBottomRightPosition
+      value: 
+      objectReference: {fileID: 133874709}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 45d7762dda3989c40a0c88ad1acce9d4, type: 2}
   m_IsPrefabParent: 0
