@@ -27,15 +27,15 @@ public class Pickup : MonoBehaviour {
     {
         if (resourceType == ResourceType.Meat)
         {
-            playerState.meat++;
+            //playerState.meat++;
         }
         else if (resourceType == ResourceType.Vegatables)
         {
-            playerState.vegatables++;
+            //playerState.vegatables++;
         }
         else if (resourceType == ResourceType.Vegatables)
         {
-			playerState.grains++;
+			//playerState.grains++;
         }
     }
 }
