@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour {
         // Touch Input
         if (Input.touchCount > 0 && IsWithinScreenBounds(Input.GetTouch(0).position))
         {
-            targetPosition = targetPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+            targetPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
             targetPosition.z = transform.position.z;
             UpdateSpriteDirection();
         }
