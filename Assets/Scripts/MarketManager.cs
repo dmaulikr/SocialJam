@@ -10,12 +10,21 @@ public class MarketManager : MonoBehaviour {
 	public ArrayList inventory;
 	private GameObject BuyCanvas;
 	private GameObject SellCanvas;
+    public string[] dbItems;
+    private string playerID;
+    private string playerName;
+    private string howMuchPrestige;
+    private string howMuchMeat;
+    private string howMuchGrain;
+    private string howMuchVeggie
+    private string CreateUserURL = "localhost:8012/GourmetPartay/updatePlayerInfo.php";
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		BuyCanvas = GameObject.FindGameObjectWithTag ("BuyCanvas");
 		SellCanvas = GameObject.FindGameObjectWithTag ("SellCanvas");
-		items = new ArrayList ();
+        PullValues();
+        items = new ArrayList ();
 		prices = new ArrayList ();
 		inventory = new ArrayList ();
 		items.Add("Meat 20");
@@ -24,9 +33,6 @@ public class MarketManager : MonoBehaviour {
 		prices.Add("Grains 50");
 		prices.Add("Meat 50");
 		prices.Add("Vegi 50");
-		inventory.Add("Meat 50");
-		inventory.Add("Vegi 50");
-		inventory.Add("Grains 50");
 	}
 	
 	// Update is called once per frame
@@ -73,9 +79,52 @@ public class MarketManager : MonoBehaviour {
 		int ind = name [-1];
 		inventory [inventory.Count] = (string)items [ind];
 		items.RemoveAt (ind);
+        BuyCallBack();
 	}
 
-	void SellItem(){
+
+    public IEnumerator PullValues()
+    {
+        WWW itemsData = new WWW("localhost:8012/GourmetPartay/characterpropertiesPULL.php");
+        yield return itemsData;
+        string itemsDataString = itemsData.text;
+        print(itemsDataString);
+        dbItems = itemsDataString.Split(';');
+        playerID = GetDataValue(dbItems[0], "facebook_id:");
+        playerName = GetDataValue(dbItems[0], "player_name:");
+        howMuchMeat = GetDataValue(dbItems[0], "meat_count:");
+        inventory.Add("Meat " + howMuchMeat);
+        howMuchGrain = GetDataValue(dbItems[0], "grain_count:");
+        inventory.Add("Grain " + howMuchGrain);
+        howMuchVeggie = GetDataValue(dbItems[0], "veggie_count:");
+        inventory.Add("Veggie " + howMuchVeggie);
+        howMuchPrestige = GetDataValue(dbItems[0], "prestige_count:");
+
+    }
+
+    public void UpdateUser(int id, string name, int count1, int count2, int count3, int count4)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("idPost", id);
+        form.AddField("namePost", name);
+        form.AddField("mPost", count1);
+        form.AddField("gPost", count2);
+        form.AddField("vPost", count3);
+        form.AddField("pPost", count4);
+        WWW www = new WWW(CreateUserURL, form);
+    }
+
+    string GetDataValue(string data, string index)
+    {
+        string value = data.Substring(data.IndexOf(index) + index.Length);
+        if (value.Contains("|"))
+        {
+            value = value.Remove(value.IndexOf("|"));
+        }
+        return value;
+    }
+
+    void SellItem(){
 		// invoke the selling interface
 	}
 
@@ -84,6 +133,7 @@ public class MarketManager : MonoBehaviour {
 	}
 
 	void BuyCallBack(){
-		// update the database after buying
+        // update the database after buying
+        UpdateUser(int.Parse(playerID), playerName, int.Parse(howMuchMeat), int.Parse(howMuchGrain), int.Parse(howMuchVeggie), int.Parse(howMuchPrestige));
 	}
 }
