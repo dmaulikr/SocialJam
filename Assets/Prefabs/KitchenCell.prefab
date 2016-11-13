@@ -36,7 +36,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4185535691328830}
   - component: {fileID: 212246202133287362}
-  - component: {fileID: 114429363609651740}
   - component: {fileID: 61616979965951814}
   m_Layer: 0
   m_Name: Sprite
@@ -86,21 +85,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.15, y: 0.15}
---- !u!114 &114429363609651740
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1101135273042532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17e9f4d4b19ea47c9a7c508fc3e6d9bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  emptyTileSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  trapTileSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  deadTileSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  cropTileSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!114 &114594746367327888
 MonoBehaviour:
   m_ObjectHideFlags: 1

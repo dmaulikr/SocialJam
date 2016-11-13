@@ -21,11 +21,15 @@ public class GridSquareState : MonoBehaviour {
 
 	[Tooltip("Image for tiles with dead enemy in trap")]
 	[SerializeField]
-	private Sprite deadTileSprite;
+	private Sprite meatTileSprite;
 
 	[Tooltip("Image for tiles with crops placed")]
 	[SerializeField]
 	private Sprite cropTileSprite;
+
+	[Tooltip("Image for tiles with produce placed")]
+	[SerializeField]
+	private Sprite produceTileSprite;
 
 	// ========================================
 	// State variables
@@ -34,11 +38,12 @@ public class GridSquareState : MonoBehaviour {
 	public enum TileState { 
 		EMPTY = 0, 
 		TRAP = 1,
-		DEAD = 2,
-		CROP = 3
+		MEAT = 2,
+		CROP = 3,
+		PRODUCE = 4
 	};
 
-	private TileState currentState;
+	public TileState currentState;
 
 	// ========================================
 	// Game loop
@@ -70,7 +75,7 @@ public class GridSquareState : MonoBehaviour {
 	}
 
 	public void SetDead() {
-		currentState = TileState.DEAD;
+		currentState = TileState.MEAT;
 	}
 
 	public void SetCrop() {
@@ -118,11 +123,14 @@ public class GridSquareState : MonoBehaviour {
 			case TileState.TRAP:
 				renderer.sprite = trapTileSprite;
 				break;
-			case TileState.DEAD:
-				renderer.sprite = deadTileSprite;
+			case TileState.MEAT:
+				renderer.sprite = meatTileSprite;
 				break;
 			case TileState.CROP:
 				renderer.sprite = cropTileSprite;
+				break;
+			case TileState.PRODUCE:
+				renderer.sprite = produceTileSprite;
 				break;
 			default:
 				renderer.sprite = emptyTileSprite;	

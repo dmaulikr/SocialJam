@@ -29,7 +29,7 @@ public class Recipe : MonoBehaviour {
 	{
 		pMeat.text = playerState.GetResourceQuantity (PlayerState.ResourceType.MEAT) + " / " + meat + " MEAT";
 		pCrop.text = playerState.GetResourceQuantity (PlayerState.ResourceType.CROP) + " / " + crop + " CROP";
-		pProduce.text = playerState.GetResourceQuantity (PlayerState.ResourceType.CROP) + " / " + produce + " PRODUCE";
+		pProduce.text = playerState.GetResourceQuantity (PlayerState.ResourceType.CROP) + " / " + produce + "PRODUCE";
 
 		if (playerState.GetResourceQuantity(PlayerState.ResourceType.MEAT) >= meat && 
 			playerState.GetResourceQuantity(PlayerState.ResourceType.CROP) >= crop && 
